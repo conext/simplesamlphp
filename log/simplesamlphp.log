@@ -1,0 +1,8 @@
+Apr 11 19:40:48 simplesamlphp ERROR [fdf72fc59c] SimpleSAML_Error_Error: UNHANDLEDEXCEPTION
+Apr 11 19:40:48 simplesamlphp ERROR [fdf72fc59c] Backtrace:
+Apr 11 19:40:48 simplesamlphp ERROR [fdf72fc59c] 0 /home/maligree/domains/maligree.linuxpl.info/public_html/simplesamlphp/www/module.php:180 (N/A)
+Apr 11 19:40:48 simplesamlphp ERROR [fdf72fc59c] Caused by: SimpleSAML_Error_Exception: The issuer of the response does not match to the identity provider we sent the request to.
+Apr 11 19:40:48 simplesamlphp ERROR [fdf72fc59c] Backtrace:
+Apr 11 19:40:48 simplesamlphp ERROR [fdf72fc59c] 1 /home/maligree/domains/maligree.linuxpl.info/public_html/simplesamlphp/modules/saml/www/sp/saml2-acs.php:65 (require)
+Apr 11 19:40:48 simplesamlphp ERROR [fdf72fc59c] 0 /home/maligree/domains/maligree.linuxpl.info/public_html/simplesamlphp/www/module.php:135 (N/A)
+Apr 11 19:40:48 simplesamlphp ERROR [fdf72fc59c] Error report with id 820b63ad generated.
